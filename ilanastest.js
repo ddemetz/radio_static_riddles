@@ -67,7 +67,7 @@ function changeVolumeTelevision(){
     console.log("Im in the tv!!!!")
      var currentVolume= document.getElementById("television").getAttribute("sound", "volume")
      console.log(currentVolume.volume)
-     if (currentVolume.volume == 5){
+     if (currentVolume.volume == 10){
         document.getElementById("television").setAttribute("sound","volume","0")}
     else{
         document.getElementById("television").setAttribute("sound","volume","10")
